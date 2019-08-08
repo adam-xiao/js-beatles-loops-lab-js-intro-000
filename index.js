@@ -32,6 +32,5 @@ function iLoveTheBeatles(number){
     love.push("I love the Beatles!");
     incVar(i);
   while (incVar() < 15);
-  }
   return love;
 }
