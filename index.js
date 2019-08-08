@@ -30,6 +30,6 @@ function iLoveTheBeatles(number){
   do{
     love.push("I love the Beatles!");
   while (incVar() < 15);
-  }
   return love;
+  }
 }
