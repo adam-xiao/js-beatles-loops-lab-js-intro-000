@@ -20,16 +20,11 @@ function johnLennonFacts(facts){
   return newFacts;
 }
 
-var i = 0;
-function incVar(){
-  i = i + 1;
-  return i;
-}
-
-function iLoveTheBeatles(number){
-  var love = [];
-  do{
-    love.push("I love the Beatles!");
-    incVar(i);
-  while (incVar() < 15);
+function iLoveTheBeatles(num) {
+  const love = []
+  do {
+    love.push('I love the Beatles!')
+    num++
+  } while (num < 15)
   return love;
+}
